@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- LUCC T-shirt CheckBox -->
+    <CheckBox
+        android:id="@+id/checkbox_lucc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUCC T-shirt (Price: $25)" />
+
+    <!-- LUCC T-shirt Size Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Size:" />
+    <Spinner
+        android:id="@+id/spinner_size_lucc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- CSE T-shirt CheckBox -->
+    <CheckBox
+        android:id="@+id/checkbox_cse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUSC T-shirt (Price: $30)" />
+
+    <!-- CSE T-shirt Size Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Size:" />
+    <Spinner
+        android:id="@+id/spinner_size_cse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- LUSC T-shirt CheckBox -->
+    <CheckBox
+        android:id="@+id/checkbox_lusc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IEEE T-shirt (Price: $35)" />
+
+    <!-- LUSC T-shirt Size Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Size:" />
+    <Spinner
+        android:id="@+id/spinner_size_lusc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- RatingBar -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

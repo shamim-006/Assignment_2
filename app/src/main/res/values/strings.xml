@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TShirtOrderApp</string>
+
+    <!-- T-shirt sizes array -->
+    <string-array name="tshirt_sizes">
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+</resources>
